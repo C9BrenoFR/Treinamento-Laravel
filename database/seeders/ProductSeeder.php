@@ -19,5 +19,12 @@ class ProductSeeder extends Seeder
             'quantity' => 1,
             'image' => "images/placa.png",
         ]);
+
+        Product::create([
+            'name' => "Placa de vídeo Gigabyte GeForce GTX 3060 12GB GDDR6",
+            'price' => 2595.50,
+            'quantity' => 2,
+            'image' => "images/placa.png",
+        ]);
     }
 }
